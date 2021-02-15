@@ -1,0 +1,209 @@
+body {
+    background: #F2F2F2;
+}
+
+.container {
+    max-width: 1441px;
+    height: 3000px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: url("../img/top-banner.png");
+    height: 811px;
+    background-size: cover;
+}
+
+.top-banner .wrap {
+    width: 1111px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.logo img:first-child {
+    margin-right: 10px;
+}
+
+.logo img:last-child {
+    margin-bottom: 10px;
+}
+
+.burger-menu {
+    background: url("../img/burger.svg") no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+.top-banner-text {
+    color: #FFF;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-banner-text h2 {
+    font-weight: bold;
+    font-size: 60px;
+    width: 660px;
+}
+
+.top-banner-text {
+    width: 610px;
+}
+
+.top-banner-text p {
+    margin-top: 30px;
+}
+
+.top-banner-text p:last-child {
+    text-decoration-line: underline;
+    color: #FFD723;
+    font-weight: bold;
+}
+
+.top-banner-text p:last-child i, .first-quote .text p i {
+    transform: rotate(
+            90deg
+    );
+    margin-right: 5px;
+}
+
+.top-banner-positioned-block {
+    position: absolute;
+    width: 80%;
+    background: transparent;
+    bottom: -285px;
+    right: 0;
+    overflow: hidden;
+    height: 400px;
+}
+
+.top-banner-positioned-block .main-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+    background: #FFFFFF;
+}
+
+.top-banner-positioned-block .wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-quote {
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.first-quote > .wrap {
+    width: 1109px;
+    height: 644px;
+    display: flex;
+}
+
+.first-quote .text {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.first-quote .text .text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.first-quote .quote {
+    width: 40%;
+}
+.first-quote .text h3 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4D533C;
+}
+.first-quote .text p:first-child {
+    color: #4D533C;
+}
+.first-quote .text p:nth-child(3) {
+    color: rgba(33, 56, 66, 0.6);
+    width: 60%;
+}
+.first-quote .text p:last-child {
+    text-decoration-line: underline;
+    color: #D4D6D4;
+}
+.first-quote .quote {
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.145947);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 50px;
+}
+.quote .text {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4D533C;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.quote .peron-image {
+    background: url('../img/Oval.png');
+    height: 180px;
+    width: 180px;
+    filter: drop-shadow(20px 25px 43px rgba(0, 0, 0, 0.18));
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.first-quote .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.first-quote .wrap {
+    margin-bottom: 50px;
+}
+.person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 60%;
+    position: relative;
+    right: 50px;
+}
+.person-info p.name {
+    font-weight: bold;
+    font-size: 22px;
+    color: #4D533C;
+}
+.person-info p.role {
+    color: #152934;
+}
