@@ -100,7 +100,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 230px;
-    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    box-shadow: 108px 23px 100px rgba(0, 0, 0, 0.20);
     border-radius: 2px;
     background: #FFFFFF;
 }
@@ -114,7 +114,8 @@ header {
     width: 100%;
     background: #FFFFFF;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 1000px;
 }
 
@@ -135,35 +136,48 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
+    height: 200px;
     margin-bottom: 50px;
 }
 
 .first-quote .quote {
     width: 40%;
 }
-.first-quote .text h3 {
+
+.h3-title {
     font-weight: bold;
     font-size: 36px;
     color: #4D533C;
 }
+.basic-text {
+    color: rgba(33, 56, 66, 0.6);
+}
+
 .first-quote .text p:first-child {
     color: #4D533C;
 }
+
 .first-quote .text p:nth-child(3) {
     color: rgba(33, 56, 66, 0.6);
     width: 60%;
 }
+
 .first-quote .text p:last-child {
     text-decoration-line: underline;
     color: #D4D6D4;
 }
+
+.first-quote .text span {
+    background: lightyellow;
+}
+
 .first-quote .quote {
     box-shadow: 0 100px 100px rgba(0, 0, 0, 0.145947);
     display: flex;
     align-items: flex-end;
     padding: 0 50px;
 }
+
 .quote .text {
     font-style: italic;
     font-size: 24px;
@@ -172,6 +186,7 @@ header {
     width: 100%;
     margin-bottom: 60px;
 }
+
 .quote .peron-image {
     background: url('../img/Oval.png');
     height: 180px;
@@ -181,15 +196,18 @@ header {
     top: 30px;
     right: 20px;
 }
+
 .first-quote .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 90px;
 }
+
 .first-quote .wrap {
     margin-bottom: 50px;
 }
+
 .person-info {
     display: flex;
     flex-direction: column;
@@ -199,11 +217,39 @@ header {
     position: relative;
     right: 50px;
 }
+
 .person-info p.name {
     font-weight: bold;
     font-size: 22px;
     color: #4D533C;
 }
+
 .person-info p.role {
     color: #152934;
+}
+
+.first-quote hr {
+    border: transparent;
+    width: 80%;
+    height: 2px;
+    background: rgba(33, 56, 66, 0.0955529);
+    margin-top: 150px;
+}
+
+.multiple-quotes {
+    height: 3000px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.multiple-quotes .header {
+    width: 1109px;
+    display: flex;
+}
+.multiple-quotes .header h3{
+    width: 40%;
+}
+.multiple-quotes .header p {
+    width: 50%;
 }
